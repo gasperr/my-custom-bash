@@ -2,7 +2,9 @@
 Simplistic bash made from scratch in C.
 
 void izpisiHelp(){
-	printf("-------------------------------------------Pomoc------------------------------------------------\n");
+
+	printf("-------------Pomoc-------------\n");
+	
 	printf("name <> - ukaz brez argumentov vrne trenutno ime; z argumentom spremeni ime\n");
 	
 	printf("status - izpise izhodni status zadnjega (v ospredju) izvedenega ukaza\n");
